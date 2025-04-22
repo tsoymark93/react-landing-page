@@ -1,0 +1,157 @@
+.program {
+    background-color: #fff;
+}
+
+.program__container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.program__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.program__title {
+    color: #1E1E1E;
+    margin: 0;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.program__download-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 24px;
+    background-color: #00A0E3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.program__download-btn:hover {
+    background-color: #0088c3;
+}
+
+.program__table {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-left: 75px;
+    position: relative;
+}
+
+.program__row {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    position: relative;
+}
+
+/* Добавляем границы только для нужных строк */
+.program__row[data-time="09:30 – 10:00"],
+.program__row[data-time="10:50 – 13:00"],
+.program__row[data-time="13:00 – 14:30"],
+.program__row[data-time="15:40 – 17:00"] {
+    border-bottom: 1px solid #00A0E3;
+}
+
+.program__time {
+    padding: 23px 0;
+    color: #1E1E1E;
+    position: relative;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.program__time::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    background-color: #00A0E3;
+}
+
+.program__content {
+    padding: 23px 0 23px 40px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.program__content-title {
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.program__content-link {
+    color: #00A0E3;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.program__content-gray {
+    color: #6B6B6B;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .program {
+        padding: 60px 0;
+    }
+
+    .program__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+
+    .program__table {
+        margin-left: 0;
+    }
+
+    .program__row {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 24px 0;
+    }
+
+    .program__time {
+        padding: 0;
+    }
+
+    .program__time::after {
+        display: none;
+    }
+
+    .program__content {
+        padding: 0;
+    }
+} 

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #2196F3;
+    --text-color: #333333;
+    --background-color: #FFFFFF;
+    --label-color: rgba(255, 255, 255, 0.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Header */
+.header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Hero section */
+.hero {
+    min-height: 100vh;
+    background-image: url('../images/MainBackground.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero__container {
+    position: relative;
+    z-index: 1;
+    max-width: 1110px;
+    margin: 0 auto;
+
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 60px;
+    padding-top: 230px;
+    margin-bottom: auto;
+}
+
+.hero__info {
+    max-width: 800px;
+}
+
+.hero__title {
+    margin-bottom: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.hero__subtitle {
+    margin-bottom: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.hero__description {
+    margin-bottom: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.hero__button {
+    font-size: 18px;
+}
+
+/* Event info */
+.event-info {
+
+
+
+    margin-bottom: 20px;
+}
+
+.event-info__label {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF80;
+
+    
+}
+
+.event-info__text {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    
+}
+
+.event-info__text:last-child {
+    margin-bottom: 0;
+}
+
+/* Footer */
+/* .footer {
+    margin-top: auto;
+    padding: 40px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+} */
+
+/* Social links */
+.social-links {
+    position: relative;
+    z-index: 1;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+}
+
+.social-links__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    transition: opacity 0.3s ease;
+}
+
+.social-links__item:hover {
+    opacity: 0.8;
+}
+
+.social-links__icon {
+    width: 42px;
+    height: 42px;
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 1024px) {
+    .hero__container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-top: 80px;
+    }
+
+    .hero__event-info {
+        order: 2;
+    }
+
+    .hero__info {
+        order: 1;
+    }
+
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .hero__subtitle {
+        font-size: 20px;
+    }
+
+    .hero__description {
+        font-size: 16px;
+    }
+
+    .event-info__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        margin-bottom: 20px;
+    }
+} 

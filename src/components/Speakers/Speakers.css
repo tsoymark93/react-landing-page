@@ -1,0 +1,150 @@
+.speakers__container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.speakers__title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #333;
+    margin-bottom: 32px;
+}
+
+.speakers__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.speakers__officials {
+    background-color: #F5F5F5;
+    padding: 70px 0;
+}
+
+.speakers__officials-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.speakers__row_officials .speaker-card {
+    position: relative;
+}
+
+.speaker-card {
+    position: relative;
+}
+
+.speakers__row_participants .speaker-card {
+    background: white;
+}
+
+
+.speaker-card_ministry {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding-top: 20px;
+}
+
+.speaker-card_ministry .speaker-card__ministry,
+.speaker-card_ministry .speaker-card__ministry-desc {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.speaker-card_ministry .speaker-card__ministry-desc {
+    color: #666;
+    margin-bottom: 0;
+}
+
+.speaker-card__image-wrapper {
+    margin-bottom: 20px;
+    aspect-ratio: 1;
+    /* overflow: hidden; */
+}
+
+.speaker-card__image {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+}
+
+.speaker-card_ministry .speaker-card__image {
+    /* width: 120px;
+    height: 120px; */
+    object-fit: contain;
+}
+
+.speaker-card__info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-card__name {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.speaker-card__position {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 150%;
+    color: #666;
+}
+
+@media (max-width: 1200px) {
+    .speakers__officials {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .speakers__row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .speakers__officials {
+        padding: 40px 0;
+    }
+
+    .speakers__row_participants {
+        padding-top: 40px;
+    }
+
+    .speakers__title {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .speakers__row {
+        grid-template-columns: 1fr;
+    }
+
+    .speakers__row_participants .speaker-card::before,
+    .speakers__row_participants .speaker-card::after,
+    .speakers__row_officials .speaker-card::after {
+        display: none;
+    }
+} 
