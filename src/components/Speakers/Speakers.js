@@ -15,7 +15,7 @@ export class Speakers {
                     <div class="speakers__row speakers__row_officials">
                         <div class="speaker-card speaker-card_ministry">
                             <div class="speaker-card__image-wrapper">
-                                <img src="./images/speakers/Ministry.png" alt="Министерство энергетики" class="speaker-card__image">
+                                <img src="/images/speakers/Ministry.png" alt="Министерство энергетики" className="speaker-card__image">
                             </div>
                             <div class="speaker-card__info">
                                 <h3 class="speaker-card__ministry">Министерство энергетики Республики Казахстан</h3>
@@ -24,7 +24,7 @@ export class Speakers {
                         </div>
                         <div class="speaker-card">
                             <div class="speaker-card__image-wrapper">
-                                <img src="./images/speakers/Stephanie.png" alt="д-р Стефани Бланкенбург" class="speaker-card__image">
+                                <img src="/images/speakers/Stephanie.png" alt="д-р Стефани Бланкенбург" className="speaker-card__image">
                             </div>
                             <div class="speaker-card__info">
                                 <h3 class="speaker-card__name">д-р Стефани Бланкенбург</h3>
@@ -33,7 +33,7 @@ export class Speakers {
                         </div>
                         <div class="speaker-card">
                             <div class="speaker-card__image-wrapper">
-                                <img src="./images/speakers/Kuanysh.png" alt="Куаныш Бейсенгазин" class="speaker-card__image">
+                                <img src="/images/speakers/Kuanysh.png" alt="Куаныш Бейсенгазин" className="speaker-card__image">
                             </div>
                             <div class="speaker-card__info">
                                 <h3 class="speaker-card__name">Куаныш Бейсенгазин</h3>
@@ -42,7 +42,7 @@ export class Speakers {
                         </div>
                         <div class="speaker-card">
                             <div class="speaker-card__image-wrapper">
-                                <img src="./images/speakers/Zulpat.png" alt="Зулпат Азиева" class="speaker-card__image">
+                                <img src="/images/speakers/Zulpat.png" alt="Зулпат Азиева" className="speaker-card__image">
                             </div>
                             <div class="speaker-card__info">
                                 <h3 class="speaker-card__name">Зулпат Азиева</h3>
@@ -58,7 +58,7 @@ export class Speakers {
                 <div class="speakers__row speakers__row_participants">
                     <div class="speaker-card">
                         <div class="speaker-card__image-wrapper">
-                            <img src="./images/speakers/Dastan.png" alt="Дастан Кошербаев" class="speaker-card__image">
+                            <img src="/images/speakers/Dastan.png" alt="Дастан Кошербаев" className="speaker-card__image">
                         </div>
                         <div class="speaker-card__info">
                             <h3 class="speaker-card__name">Дастан Кошербаев</h3>
@@ -67,7 +67,7 @@ export class Speakers {
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-card__image-wrapper">
-                            <img src="./images/speakers/Yuliya.png" alt="Юлия Якупбаева" class="speaker-card__image">
+                            <img src="/images/speakers/Yuliya.png" alt="Юлия Якупбаева" className="speaker-card__image">
                         </div>
                         <div class="speaker-card__info">
                             <h3 class="speaker-card__name">Юлия Якупбаева</h3>
@@ -76,7 +76,7 @@ export class Speakers {
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-card__image-wrapper">
-                            <img src="./images/speakers/Nikolay.png" alt="Николай Посыпанко" class="speaker-card__image">
+                            <img src="/images/speakers/Nikolay.png" alt="Николай Посыпанко" className="speaker-card__image">
                         </div>
                         <div class="speaker-card__info">
                             <h3 class="speaker-card__name">Николай Посыпанко</h3>
@@ -85,7 +85,7 @@ export class Speakers {
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-card__image-wrapper">
-                            <img src="./images/speakers/Ilya.png" alt="Илья Вульф" class="speaker-card__image">
+                            <img src="/images/speakers/Ilya.png" alt="Илья Вульф" className="speaker-card__image">
                         </div>
                         <div class="speaker-card__info">
                             <h3 class="speaker-card__name">Илья Вульф</h3>

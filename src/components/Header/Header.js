@@ -8,8 +8,8 @@ export class Header {
     this.element.innerHTML = `
             <div class="header__container">
                 <div class="header__logos">
-                    <img src="./images/UNlogo.svg" alt="UN Logo" class="header__logo">
-                    <img src="./images/BUREAUlogo.svg" alt="Bureau Logo" class="header__logo">
+                    <img src="/images/UNlogo.svg" alt="UN Logo" className="header__logo">
+                    <img src="/images/BUREAUlogo.svg" alt="Bureau Logo" className="header__logo">
                 </div>
                 <nav class="header__nav">
                     <a href="#about" class="header__link">О проекте</a>
