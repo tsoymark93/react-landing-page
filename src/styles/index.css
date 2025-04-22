@@ -1,16 +1,4 @@
-@import './normalize.css';
-@import './variables.css';
-@import './fonts.css';
-@import './page.css';
-@import './header.css';
-@import './hero.css';
-@import './about-project.css';
-@import './speakers.css';
-@import './program.css';
-@import './contacts.css';
-@import './footer.css';
-@import './button.css';
-@import './social-links.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 html {
     scroll-behavior: smooth;
