@@ -9,6 +9,10 @@ export class Footer {
     footer.id = "contacts";
 
     footer.innerHTML = `
+      <div class="footer__contacts">
+        <h2 class="footer__title">Контакты</h2>
+        <a href="mailto:info@nber.kz" class="footer__email">info@nber.kz</a>
+      </div>
       <div class="footer__map">
         <div style="position:relative;overflow:hidden;">
           <a href="https://yandex.com/maps/org/hilton_garden_inn_astana/1381689309/?utm_medium=mapframe&utm_source=maps" 

@@ -21,7 +21,7 @@ export class AboutProject {
                         <div class="about-project__indented">
                             <p class="about-project__paragraph">
                                 Цель встречи — представить и обсудить 
-                                <span class="about-project__highlight">международные рекомендации к Дорожной картепо реализации Стратегии</span> 
+                                <span class="about-project__highlight">международные рекомендации к Дорожной карте по реализации Стратегии</span> 
                                 достижения углеродной нейтральности Казахстана к 2060 году.
                             </p>
                             <p class="about-project__paragraph">

@@ -1,12 +1,12 @@
 import { Header } from "./Header/Header.js";
-import { SocialLinks } from "./SocialLinks/SocialLinks.js";
+import { ScrollArrow } from "./ScrollArrow/ScrollArrow.js";
 import { AboutProject } from "./AboutProject/AboutProject.js";
 import { Speakers } from "./Speakers/Speakers.js";
 import { Program } from "./Program/Program.js";
 import { Footer } from "./Footer/Footer.js";
 import { Modal } from "./Modal/Modal.js";
 import "./Header/Header.css";
-import "./SocialLinks/SocialLinks.css";
+import "./ScrollArrow/ScrollArrow.css";
 import "./AboutProject/AboutProject.css";
 import "./Speakers/Speakers.css";
 import "./Program/Program.css";
@@ -15,7 +15,7 @@ import "./Modal/Modal.css";
 
 document.addEventListener("DOMContentLoaded", () => {
   new Header();
-  new SocialLinks();
+  new ScrollArrow();
   new AboutProject();
   new Speakers();
   new Program();

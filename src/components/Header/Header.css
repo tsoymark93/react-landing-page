@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 
 .header__logos {
@@ -31,17 +32,15 @@
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0%;
-
 }
 
 .header__link:hover {
     opacity: 0.8;
 }
 
-/* .header__button {
-    background-color: white;
-    color: var(--primary-color);
-} */
+.header__button {
+    border-radius: 5px;
+}
 
 @media (max-width: 1024px) {
     .header__nav {
@@ -54,5 +53,20 @@
 
     .header__logos {
         gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__container {
+        padding: 0 15px;
+    }
+
+    .header__logo {
+        height: 35px;
+    }
+
+    .header__button {
+        font-size: 14px;
+        padding: 8px 16px;
     }
 } 
