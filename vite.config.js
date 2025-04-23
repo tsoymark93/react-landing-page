@@ -3,6 +3,8 @@ export default {
   build: {
     outDir: "../dist",
     emptyOutDir: true,
+    assetsDir: "assets",
+    publicDir: "public",
   },
   server: {
     port: 3000,

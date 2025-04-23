@@ -56,7 +56,7 @@ body {
 /* Hero section */
 .hero {
     min-height: 100vh;
-    background-image: url('../images/MainBackground.png');
+    background-image: url('/images/MainBackground.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -127,9 +127,6 @@ body {
 
 /* Event info */
 .event-info {
-
-
-
     margin-bottom: 20px;
 }
 
@@ -140,8 +137,6 @@ body {
     line-height: 150%;
     letter-spacing: 0%;
     color: #FFFFFF80;
-
-    
 }
 
 .event-info__text {
@@ -150,7 +145,6 @@ body {
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0%;
-    
 }
 
 .event-info__text:last-child {
