@@ -1,10 +1,11 @@
 export default {
   root: "src",
+  publicDir: "public",
   build: {
     outDir: "../dist",
     emptyOutDir: true,
     assetsDir: "assets",
-    publicDir: "/public",
+    copyPublicDir: true,
   },
   server: {
     port: 3000,
