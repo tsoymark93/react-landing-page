@@ -4,6 +4,7 @@ import "./Program.css";
 export class Program {
   constructor() {
     this.render();
+    this.attachEventListeners();
   }
 
   render() {
@@ -15,12 +16,12 @@ export class Program {
       <div class="program__container">
         <div class="program__header">
           <h2 class="program__title">Программа Консультации</h2>
-          <button class="program__download-btn">
+          <a href="/files/program.pdf" download class="program__download-btn hidden">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" fill="white"/>
             </svg>
             Скачать полную версию
-          </button>
+          </a>
         </div>
         <div class="program__table">
           <div class="program__row" data-time="09:30 – 10:00">
@@ -73,5 +74,9 @@ export class Program {
     `;
 
     document.querySelector(".content").appendChild(section);
+  }
+
+  attachEventListeners() {
+    // Implementation of attachEventListeners method
   }
 }

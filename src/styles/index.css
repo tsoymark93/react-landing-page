@@ -56,7 +56,7 @@ body {
 /* Hero section */
 .hero {
     min-height: 100vh;
-    background-image: url('../public/images/MainBackground.png');
+    background-image: url('../images/MainBackground.png');
     background-size: cover;
     background-position: center;
     position: relative;
