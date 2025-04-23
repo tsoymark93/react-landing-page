@@ -4,7 +4,7 @@ export default {
     outDir: "../dist",
     emptyOutDir: true,
     assetsDir: "assets",
-    publicDir: "public",
+    publicDir: "../public",
   },
   server: {
     port: 3000,
