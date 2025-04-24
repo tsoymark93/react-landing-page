@@ -64,7 +64,7 @@ export class AboutProject {
                             и экономической трансформации.
                         </p>
                         <div class="about-project__image">
-                            <img src="/images/AboutProject.png" alt="Project on Resilient, Green and Transformative Development">
+                            <img src="/unctad-2nd-cons/images/AboutProject.png" alt="Project on Resilient, Green and Transformative Development">
                         </div>
                     </div>
                 </div>
